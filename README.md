@@ -10,7 +10,14 @@ credits to original creator of the tool
 
 Usage:
 chmod +x install.sh
+
 bash install.sh
+
 go build -o revdns main.go
+
 chmod +x revdns
+
 ./revdns <<CIDR>> or <<CIDR list>>
+
+  
+ cidr_resolver file is prebuild for mac
