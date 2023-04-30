@@ -8,5 +8,9 @@ credits to original creator of the tool
 @glebarez
 @kmskrishna
 
-usage 
-./cidr_resolver <<CIDR>> or <<CIDR list>>
+Usage:
+chmod +x install.sh
+bash install.sh
+go build -o revdns main.go
+chmod +x revdns
+./revdns <<CIDR>> or <<CIDR list>>
