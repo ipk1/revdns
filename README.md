@@ -17,7 +17,7 @@ go build -o revdns main.go
 
 chmod +x revdns
 
-./revdns <<CIDR>> or <<CIDR list>>
+./revdns CIDR or CIDR list
 
   
  cidr_resolver file is prebuild for mac
